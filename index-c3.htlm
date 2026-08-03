@@ -46,7 +46,7 @@
         <p>Connectez votre xiao esp32-c3 en usb avant de cliquer.</p>
         
         <!-- Notez que l'URL du manifest est maintenant un simple lien relatif ! -->
-        <esp-web-install-button manifest="manifestc3.json">
+        <esp-web-install-button manifest="manifest-c3.json">
             <button slot="activate" class="btn-flash">téléversement du code</button>
             <span slot="unsupported">votre navigateur ne supporte pas le flashage web. Utilisez Chrome ou Edge sur ordinateur.</span>
         </esp-web-install-button>
